@@ -16,7 +16,7 @@ Sigue estos pasos para probar la plataforma en tu máquina:
 1. **Clona este repositorio y navega al directorio**
    ```bash
    git clone <URL_DEL_REPOSITORIO>
-   cd grego-gal-prototype
+   cd proto_gal_alert_app
    ```
 
 2. **Instala las dependencias**
