@@ -13,23 +13,44 @@ Para levantar este proyecto en un entorno local, necesitas tener instalado:
 
 Sigue estos pasos para probar la plataforma en tu máquina:
 
-1. **Clona este repositorio y navega al directorio**
+0. **Prepara el entorno de ejecución**
+   Windows
+   ```bash
+   winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
+   ```
+
+   Ubuntu Linux
+   ```bash
+   curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install -y nodejs
+   ```
+
+   macOS (requiere tener homebrew instalado)
+   ```bash
+   brew install node
+   ```
+   
+   Validar instalación
+   ```bash
+   node -v && npm -v
+   ``` 
+
+2. **Clona este repositorio y navega al directorio**
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd proto_gal_alert_app
    ```
 
-2. **Instala las dependencias**
+3. **Instala las dependencias**
    ```bash
    npm install
    ```
 
-3. **Inicia el servidor de desarrollo**
+4. **Inicia el servidor de desarrollo**
    ```bash
    npm run dev
    ```
 
-4. **Visualiza la aplicación**
+5. **Visualiza la aplicación**
    Abre tu navegador web e ingresa a la dirección local que arroje la consola (generalmente [http://localhost:5173/](http://localhost:5173/)).
 
 ## Guía de Uso del Prototipo 📖
